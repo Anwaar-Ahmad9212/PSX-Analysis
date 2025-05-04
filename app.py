@@ -188,9 +188,7 @@ elif selected == "Visualizations":
     viz_option = st.selectbox(
         "Select Visualization",
         ["Bar Chart", "Box-Whisker Plot", "Pie Chart", "Histogram", "Regression", 
-         "Line Chart", "Normal Curve", "Statistics", "Confidence Interval"],
-     index=0,
-    help="Choose a visualization to display"
+         "Line Chart", "Normal Curve", "Statistics", "Confidence Interval"]
     )
 
     if viz_option == "Bar Chart":
