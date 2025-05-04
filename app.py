@@ -189,6 +189,8 @@ elif selected == "Visualizations":
         "Select Visualization",
         ["Bar Chart", "Box-Whisker Plot", "Pie Chart", "Histogram", "Regression", 
          "Line Chart", "Normal Curve", "Statistics", "Confidence Interval"]
+     index=0,
+    help="Choose a visualization to display"
     )
 
     if viz_option == "Bar Chart":
