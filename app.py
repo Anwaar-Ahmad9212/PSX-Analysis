@@ -12,6 +12,7 @@ st.set_page_config(page_title="Stock Exchange Analysis Report", layout="wide")
 # Apply custom CSS
 with open("assets/styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
 st.markdown(
     """
     <div style='
@@ -20,14 +21,41 @@ st.markdown(
         border-radius:10px;
         margin-bottom:20px;
         position:relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     '>
         <img src='https://raw.githubusercontent.com/Steelman9876/logo/main/a-logo-with-the-text-squardon-x-in-a-mod_wdxq7gxLRuiZhutKtct7Vg_yEPFiJ02T7m6OMAVyelz6A.jpeg'
              width='140' height='140'
-             style='border-radius:50%;position:absolute;left:20px;top:50%;transform:translateY(-50%);' />
-        <h1 style='color:#E2E2B6;text-align:center;margin:0;font-size:32px;'>Pakistan Stock Exchange Analysis</h1>
-        <h1 style='color:#E2E2B6;text-align:center;margin:0;font-size:32px;'>by SQUADRON X</h1>
-  
+             style='
+                border-radius:50%;
+                margin-right: 20px;
+                position:relative;
+                order: -1;
+            ' />
+        <div style='text-align:center;'>
+            <h1 style='color:#E2E2B6;margin:0;font-size:32px;'>Pakistan Stock Exchange Analysis</h1>
+            <h1 style='color:#E2E2B6;margin:0;font-size:32px;'>by SQUADRON X</h1>
+        </div>
     </div>
+
+    <style>
+        @media (max-width: 768px) {
+            div {
+                flex-direction: column;
+                text-align: center;
+            }
+            img {
+                margin-right: 0;
+                margin-bottom: 10px;
+                order: 0;
+            }
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
     """,
     unsafe_allow_html=True
 )
