@@ -310,9 +310,7 @@ elif selected == "Contact":
             st.markdown(f"""
                 <div class='team-card'>
                     <p style='color:#03346E;font-size:20px;margin:0;'>👤 {name}</p>
-                    <p class='email' style='color:#6EACDA;margin:10px 0;'>
-                        📧 {roll_no.lower()}@cfd.nu.edu.pk
-                    </p>
+                    
                 </div>
             """, unsafe_allow_html=True)
     
@@ -325,9 +323,7 @@ elif selected == "Contact":
             st.markdown(f"""
                 <div class='team-card'>
                     <p style='color:#03346E;font-size:20px;margin:0;'>👤 {name}</p>
-                    <p class='email' style='color:#6EACDA;margin:10px 0;'>
-                        📧 {roll_no.lower()}@cfd.nu.edu.pk
-                    </p>
+                   
                 </div>
             """, unsafe_allow_html=True)
     
