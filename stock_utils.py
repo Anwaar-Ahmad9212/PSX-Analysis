@@ -39,10 +39,23 @@ def plot_volume_pie(data):
     return fig
 
 def plot_box_close(data):
+    close_prices = data['Close'].dropna()
+    q1 = np.percentile(close_prices, 25)
+    q2 = np.percentile(close_prices, 50)  # Median
+    q3 = np.percentile(close_prices, 75)
+
     fig, ax = plt.subplots(figsize=(6, 3))
-    ax.boxplot(data['Close'].dropna(), vert=False)
+    ax.boxplot(close_prices, vert=False)
     ax.set_title('Box Plot of Closing Prices')
     ax.set_xlabel('Closing Price')
+
+    # Annotate the quartiles
+    ax.axvline(q1, color='blue', linestyle='--', label='Q1 (25%)')
+    ax.axvline(q2, color='green', linestyle='--', label='Q2 (Median)')
+    ax.axvline(q3, color='red', linestyle='--', label='Q3 (75%)')
+
+    ax.legend(loc='upper right')
+
     return fig
 
 def plot_regression_close_volume(data):
