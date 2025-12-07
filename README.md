@@ -4,6 +4,16 @@ This project presents a comprehensive **visual**, **statistical**, and **probabi
 
 ---
 
+---
+
+### Live Website
+
+You can access the deployed app here:
+
+[https://psx-analysis.streamlit.app/](https://psx-analysis.streamlit.app/)
+
+---
+
 ## 📈 Features
 
 - 📉 Line and bar charts for price and volume trends  
@@ -32,18 +42,8 @@ This project presents a comprehensive **visual**, **statistical**, and **probabi
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Anwaar-Ahmad9212/PSX-Analysis
 ```
-
----
-
-### 2. Live Website
-
-You can access the deployed app here:
-
-[https://psx-analysis.streamlit.app/](https://psx-analysis.streamlit.app/)
-
----
