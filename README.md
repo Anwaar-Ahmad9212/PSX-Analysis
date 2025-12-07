@@ -28,14 +28,22 @@ This project presents a comprehensive **visual**, **statistical**, and **probabi
 
 ---
 
+---
+
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/Anwaar-Ahmad9212/PSX-Analysis
----
+```
 
 ---
-### **Live Website Link**
-https://psx-analysis.streamlit.app/
+
+### 2. Live Website
+
+You can access the deployed app here:
+
+[https://psx-analysis.streamlit.app/](https://psx-analysis.streamlit.app/)
+
 ---
