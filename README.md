@@ -2,7 +2,7 @@
 
 This project presents a comprehensive **visual**, **statistical**, and **probability-based analysis** of the **Pakistan Stock Exchange (KSE-100 Index)** from 2015 to 2021. Built using Python for backend data analysis and Streamlit for frontend visualization, it helps users uncover insights into market behavior, price fluctuations, and trading volume dynamics.
 
----
+
 
 ---
 
